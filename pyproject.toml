@@ -2,7 +2,7 @@
 name = "template-python-fastapi"  # Update this + the packages field below, to change the name of your app
 version = "0.1.0"
 description = ""
-authors = [""]  # Update to include your email
+authors = ["your_email_here"]  # Update to include your email
 readme = "README.md"
 packages = [{include = "template_python_fastapi"}]
 
