@@ -1,10 +1,8 @@
 [tool.poetry]
-name = "template-python-fastapi"  # Update this + the packages field below, to change the name of your app
+name = "template-python-fastapi"  # Update this to change the name of your app
 version = "0.1.0"
-description = ""
-authors = ["your_email_here"]  # Update to include your email
+authors = []  # Update to include your email
 readme = "README.md"
-packages = [{include = "template_python_fastapi"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
