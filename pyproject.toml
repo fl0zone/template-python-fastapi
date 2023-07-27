@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "template-python-fastapi"  # Update this + the packages field below, to change the name of your app
+version = "0.1.0"
+description = ""
+authors = [""]  # Update to include your email
+readme = "README.md"
+packages = [{include = "template_python_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.0"
+uvicorn = "^0.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
