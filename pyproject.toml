@@ -3,6 +3,7 @@ name = "template-python-fastapi"  # Update this to change the name of your app
 version = "0.1.0"
 authors = []  # Update to include your email
 readme = "README.md"
+description = "Template for a FastAPI + Uvicorn based webserver project"
 
 [tool.poetry.dependencies]
 python = "^3.11"
